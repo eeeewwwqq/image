@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	ninemoto有限公司
+</title>
+<meta name="description" content="ninemoto"><link rel="stylesheet" href="./images/default.css"><link rel="stylesheet" href="./images/index.css">
+    <script type="text/javascript" src="./images/Jquery.js"></script>
+    <script type="text/javascript" src="./images/funs.js"></script>
+    <script type="text/javascript" src="./images/jQuery.blockUI.js"></script>
+    <script type="text/javascript" src="./images/jquery.SuperSlide.js"></script>
+    <script src="./images/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="./images/search.js"></script>
+</head>
+
+
+        <div class="container">
+            <div class="all">
+                
+<div class="Head">
+    <div class="logocont clearboth">
+        <div class="logo float_l"><a href="http://www.xlddc.cn/">
+            <img src="./images/logo.png"></a></div>
+        <div class="share float_r">
+            <p><a class="langu" href="http://www.slanechina.com/" target="_blank"></a><a class="sina" href="http://weibo.com/3079107955" target="_blank"></a><a class="wei" id="we" href="javascript:void(0)"><img src="./images/ma2.png"></a><a class="baidu" href="http://tieba.baidu.com/f?kw=%D0%C2%C0%D9%B5%E7%B6%AF%B3%B5&amp;fr=ala0" target="_blank"></a></p>
+            <div class="input">
+                <input type="text" id="keywords" value="请输入您喜欢的车型"><a id="search1" href="javascript:void(0)" onclick="DoSearch()"></a>
+            </div>
+        </div>
+    </div>
+    <div class="Menu clearboth">
+        <div class="click float_l" style="top:50px;z-index:1">
+            <a class="sub_title" href="javascript:void(0)">网站导航</a>
+            <div class="sub_menu">
+                <ul>
+                    <li><span><a href="http://www.xlddc.cn/about/">关于九秒</a></span><p><a href="http://www.xlddc.cn/about/index.aspx">了解九秒</a><a href="http://www.xlddc.cn/about/join.aspx">加入九秒</a><a href="http://www.xlddc.cn/about/contact.aspx" style="background: none;">联系我们</a></p>
+                    </li>
+                    <li><span style="padding-top: 17px"><a href="http://www.xlddc.cn/product/index.aspx?TypeID=2">产品家族</a></span><p class="clearboth">
+                        
+                                <a href="http://www.xlddc.cn/product/index.aspx?TypeID=2">NEO</a>
+                            
+                                <a href="http://www.xlddc.cn/product/index.aspx?TypeID=3">电动自行车系列</a>
+                            
+                                <a href="http://www.xlddc.cn/product/index.aspx?TypeID=5">力加电动</a>
+                            
+                                <a href="http://www.xlddc.cn/product/index.aspx?TypeID=7">电轻摩系列</a>
+                            
+                                <a href="http://www.xlddc.cn/product/index.aspx?TypeID=4" style="background: none;">电摩系列</a>
+                            
+                    </p>
+                    </li>
+                    <li><span><a href="http://www.xlddc.cn/home/">九秒之家</a></span><p><a href="http://www.xlddc.cn/home/index.aspx">九秒销售网点查询</a><a href="http://www.xlddc.cn/home/down.aspx" style="background: none;">下载中心</a></p>
+                    </li>
+                    <li><span><a href="javascript:void(0)">关注我们</a></span><p><a id="ma" href="javascript:void(0)">官方微信<img src="./images/ma.png"></a><a href="http://weibo.com/3079107955" target="_blank">九秒微博</a><a href="http://tieba.baidu.com/f?kw=%D0%C2%C0%D9%B5%E7%B6%AF%B3%B5&amp;fr=ala0" target="_blank" style="background: none;">九秒贴吧</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menubox float_l" style="    padding-left: 254px;">
+            
+            <ul class="clearboth float_l">
+                <li><a class="title" href="http://www.xlddc.cn/">首&nbsp;页</a></li>
+                
+                        <li class="ot">
+                            <div class="rela"><a class="title" href="http://www.xlddc.cn/product/index.aspx?TypeID=2">NEO</a><img class="curimg" src="./images/cur.png"></div>
+                           
+                        </li>
+                    
+                        <li class="ot">
+                            <div class="rela"><a class="title" href="http://www.xlddc.cn/product/index.aspx?TypeID=3">电动自行车系列</a><img class="curimg" src="./images/cur.png"></div>
+                           
+                        </li>
+                    
+                        <li class="ot">
+                            <div class="rela"><a class="title" href="http://www.xlddc.cn/product/index.aspx?TypeID=5">力加电动</a><img class="curimg" src="./images/cur.png"></div>
+                           
+                        </li>
+                    
+                        <li class="ot">
+                            <div class="rela"><a class="title" href="http://www.xlddc.cn/product/index.aspx?TypeID=7">电轻摩系列</a><img class="curimg" src="./images/cur.png"></div>
+                           
+                        </li>
+                    
+                        <li class="ot">
+                            <div class="rela"><a class="title" href="http://www.xlddc.cn/product/index.aspx?TypeID=4">电摩系列</a><img class="curimg" src="./images/cur.png"></div>
+                           
+                        </li>
+                    
+                <li class="ot"><a class="title" href="http://weibo.com/login.php" target="_blank">微&nbsp;博&nbsp;动&nbsp;态&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            </ul>
+            <div class="rightbg float_l"></div>
+        </div>
+    </div>
+</div>
+
+                <div class="idea_slider mb35">
+                    <ul class="imgs">
+                        
+                                <li style="display: list-item; opacity: 0.618249;"><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383907&amp;idx=1&amp;sn=bbdc87efc612488ba36b379030601628&amp;chksm=bd6de3db8a1a6acd036a8bdf2337f8a2908b0b29754002252ddee4b873c9f5ff5d5bc695b829&amp;token=1525">
+                                    <img src="./images/20201117165441874.jpg" alt="img"></a></li>
+                            
+                                <li style="display: none;"><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383188&amp;idx=1&amp;sn=240bb9f717674053342993f1e501f04d&amp;chksm=bd6deeac8a1a67ba75bc6d6b56f0a40ecf9217e81558b2506b16382d668da46693dcf07b9d62&amp;token=1525">
+                                    <img src="./images/20201117164726088.jpg" alt="img"></a></li>
+                            
+                                <li style="display: list-item; opacity: 0.381751;"><a href="http://mp.weixin.qq.com/s/5Xq9aYbX2_OvbR3uI6Vz7Q">
+                                    <img src="./images/20171030143338122.jpg" alt="img"></a></li>
+                            
+                    </ul>
+                <ul class="ctrs"><li class="cur">0</li><li class="">1</li><li class="">2</li></ul></div>
+                <div class="Title mb10"><em>明星单品</em><span>Star product</span></div>
+                <div class="clearboth mb15">
+                    <div class="detab">
+                        <div class="detab_title clearboth">
+                            <a class="a1 cur" href="javascript:void(0)"></a>
+                            <a class="a2" href="javascript:void(0)"></a>
+                        </div>
+                        <div class="detab_con">
+                            <div class="border detab_con1">
+                                <img class="hot" src="./images/hot.png" alt="img">
+                                <div class="box_1 box">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383808&amp;idx=1&amp;sn=85c527609a3b673cde462e6f62c92867&amp;chksm=bd6de3388a1a6a2e35956c13bc446350aebed638c9bcdeaf448448a421b64541782f27225f5a&amp;token=1525" id="a1">
+                                        <img src="./images/20201117171838874.jpg" id="img1" class="img" alt="img"></a>
+                                    <span class="text">
+                                        <h3 id="h3">N9</h3>
+                                        <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383808&amp;idx=1&amp;sn=85c527609a3b673cde462e6f62c92867&amp;chksm=bd6de3388a1a6a2e35956c13bc446350aebed638c9bcdeaf448448a421b64541782f27225f5a&amp;token=1525" id="a2">了解更多&gt;</a></p>
+                                    </span>
+                                </div>
+                                
+                                        <div class="box_2 box">
+                                            <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652381305&amp;idx=1&amp;sn=ff726caadb1892df32998f9ea303065d&amp;chksm=bd6de9018a1a6017521ed38fa286387a1c38a2cc10ae87193372af83126a2c6e46e3e542b945&amp;token=1525">
+                                                <img class="img" src="./images/20201118162927673.jpg" alt="img"></a>
+                                            <span class="text">
+                                                <h3>小炫速</h3>
+                                                <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652381305&amp;idx=1&amp;sn=ff726caadb1892df32998f9ea303065d&amp;chksm=bd6de9018a1a6017521ed38fa286387a1c38a2cc10ae87193372af83126a2c6e46e3e542b945&amp;token=1525">了解更多&gt;</a></p>
+                                            </span>
+                                        </div>
+                                    
+                                        <div class="box_3 box">
+                                            <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652380990&amp;idx=1&amp;sn=62d3d2334576f12c22558ab5a54d1468&amp;chksm=bd6dd6468a1a5f50421fba8d56c23bff555dc308a6257d573b1a1174f83d8f149da172df6a1a&amp;token=1525">
+                                                <img class="img" src="./images/20201118164133320.jpg" alt="img"></a>
+                                            <span class="text">
+                                                <h3>小炫酷</h3>
+                                                <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652380990&amp;idx=1&amp;sn=62d3d2334576f12c22558ab5a54d1468&amp;chksm=bd6dd6468a1a5f50421fba8d56c23bff555dc308a6257d573b1a1174f83d8f149da172df6a1a&amp;token=1525">了解更多&gt;</a></p>
+                                            </span>
+                                        </div>
+                                    
+                                        <div class="box_4 box">
+                                            <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383371&amp;idx=1&amp;sn=e118c92c823e90dfc351cbb99172c000&amp;chksm=bd6de1f38a1a68e53d60c47cb4816d211838ec12a8c637a971aeb01271a5c519d56c21c3c8cb&amp;token=1525">
+                                                <img class="img" src="./images/20201118160924199.jpg" alt="img"></a>
+                                            <span class="text">
+                                                <h3>G6</h3>
+                                                <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383371&amp;idx=1&amp;sn=e118c92c823e90dfc351cbb99172c000&amp;chksm=bd6de1f38a1a68e53d60c47cb4816d211838ec12a8c637a971aeb01271a5c519d56c21c3c8cb&amp;token=1525">了解更多&gt;</a></p>
+                                            </span>
+                                        </div>
+                                    
+                                        <div class="box_5 box">
+                                            <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383266&amp;idx=1&amp;sn=fc676d2965365be578e50a4bd3a8f769&amp;chksm=bd6de15a8a1a684c08a3f4d0153e8a81a166b711987bde1f386732e5a365db582d45abe563c4&amp;token=1525">
+                                                <img class="img" src="./images/20201117173238237.jpg" alt="img"></a>
+                                            <span class="text">
+                                                <h3>G90</h3>
+                                                <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652383266&amp;idx=1&amp;sn=fc676d2965365be578e50a4bd3a8f769&amp;chksm=bd6de15a8a1a684c08a3f4d0153e8a81a166b711987bde1f386732e5a365db582d45abe563c4&amp;token=1525">了解更多&gt;</a></p>
+                                            </span>
+                                        </div>
+                                    
+                                        <div class="box_6 box">
+                                            <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652379773&amp;idx=1&amp;sn=e53749e139f81108a684ac3b34e314fd&amp;chksm=bd6dd3058a1a5a1376f8896908afa5ddaa1928fcfd5f2b25ed663a375ff3e13a9ef46ec33705&amp;token=1525">
+                                                <img class="img" src="./images/20201117174311833.jpg" alt="img"></a>
+                                            <span class="text">
+                                                <h3>灵珑</h3>
+                                                <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDg1Njk4Mw==&amp;mid=2652379773&amp;idx=1&amp;sn=e53749e139f81108a684ac3b34e314fd&amp;chksm=bd6dd3058a1a5a1376f8896908afa5ddaa1928fcfd5f2b25ed663a375ff3e13a9ef46ec33705&amp;token=1525">了解更多&gt;</a></p>
+                                            </span>
+                                        </div>
+                                    
+                            </div>
+                            <div class="border detab_con2" style="display: none;">
+                                <div class="box_1 box">
+                                    <a href="javascript:void(0)" id="a3">
+                                        <img src="./images/img1.jpg" id="img2" class="img" alt="img"></a>
+                                    <span class="text">
+                                        <h3 id="hh3">途远</h3>
+                                        <p><a href="http://www.xlddc.cn/#" id="a4">了解更多&gt;</a></p>
+                                    </span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightbox">
+                        <div class="website">
+                            <div class="topbox"><span>网点查询</span></div>
+                            <div class="province">
+                                <p class="Text_c"><span>点击省份查询网点</span></p>
+                                <div class="box">
+                                    <ul>
+                                        
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=1">北京市</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=2">天津市</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=3">河北省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=4">山西省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=5">内蒙古</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=6">辽宁省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=7">吉林省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=8">黑龙江省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=9">上海市</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=10">江苏省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=11">浙江省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=12">安徽省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=13">福建省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=14">江西省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=15">山东省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=16">河南省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=17">湖北省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=18">湖南省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=19">广东省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=20">海南省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=21">广西</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=22">甘肃省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=23">陕西省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=24">新 疆</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=25">青海省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=26">宁夏</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=27">重庆市</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=28">四川省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=29">贵州省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=30">云南省</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=35">安徽</a></li>
+                                            
+                                                <li><a href="http://www.xlddc.cn/home/index.aspx?rel=36">福建省</a></li>
+                                            
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <div class="topbox"><span>下载中心</span></div>
+                            <ul>
+                                
+                                        <li><a href="http://www.xlddc.cn/home/download.aspx?DownID=66">店面灯箱画面</a></li>
+                                    
+                                        <li><a href="http://www.xlddc.cn/home/download.aspx?DownID=63">参数表</a></li>
+                                    
+                                        <li><a href="http://www.xlddc.cn/home/download.aspx?DownID=41">九秒电动车2015全新全顺车车贴</a></li>
+                                    
+                            </ul>
+                            <a class="more" href="http://www.xlddc.cn/home/down.aspx">more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearboth">
+                    <div class="left_cont float_l">
+                        <div class="Title mb10"><em>新品速递</em><span>New express</span></div>
+                        <div class="leftLoop">
+                            <div class="hd">
+                                <a class="prev"></a>
+                                <a class="next"></a>
+                            </div>
+                            <div class="bd">
+                                <div class="tempWrap" style="overflow:hidden; position:relative; width:884px"><ul class="picList" style="width: 5304px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -1768px;"><li style="float: left; width: 884px;">
+                                                <div class="pic">
+                                                    <a href="http://www.xlddc.cn/#">
+                                                        <img src="./images/20201118161715526.jpg"></a>
+                                                </div>
+                                            </li><li style="float: left; width: 884px;">
+                                                <div class="pic">
+                                                    <a href="http://www.xlddc.cn/#">
+                                                        <img src="./images/20201118161849919.jpg"></a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li style="float: left; width: 884px;">
+                                                <div class="pic">
+                                                    <a href="http://www.xlddc.cn/#">
+                                                        <img src="./images/20201118161715526.jpg"></a>
+                                                </div>
+                                            </li>
+                                        
+                                            <li style="float: left; width: 884px;">
+                                                <div class="pic">
+                                                    <a href="http://www.xlddc.cn/#">
+                                                        <img src="./images/20201118161849919.jpg"></a>
+                                                </div>
+                                            </li>
+                                        
+                                <li style="float: left; width: 884px;">
+                                                <div class="pic">
+                                                    <a href="http://www.xlddc.cn/#">
+                                                        <img src="./images/20201118161715526.jpg"></a>
+                                                </div>
+                                            </li><li style="float: left; width: 884px;">
+                                                <div class="pic">
+                                                    <a href="http://www.xlddc.cn/#">
+                                                        <img src="./images/20201118161849919.jpg"></a>
+                                                </div>
+                                            </li></ul></div>
+                            </div>
+                            <script type="text/javascript">jQuery(".leftLoop").slide({ mainCell: ".bd ul", effect: "leftLoop", vis: 1, scroll: 1, autoPlay: false });</script>
+                        </div>
+                    </div>
+                    <div class="right_cont float_r">
+                        <div class="Title mb10"><em>微博动态</em><span>Microblog</span></div>
+                        <div class="sina">
+                            <div style="text-align: center;">
+                                <iframe width="100%" height="390" class="share_self" frameborder="0" scrolling="no" src="./images/index.html"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="Foot">
+    <div class="all clearboth">
+        <div class="scan float_l">
+            <ul class="clearboth">
+                <li style="margin-right: 30px">
+                    <img src="./images/ma1.jpg"><p>扫一扫</p>
+                    <p>关注九秒微博</p>
+                </li>
+                <li>
+                    <img src="./images/ma2.jpg"><p>扫一扫</p>
+                    <p>关注九秒官微</p>
+                </li>
+            </ul>
+        </div>
+        <div class="zi_menu clearboth">
+            <dl style="width: 114px">
+                <dt><a href="http://www.xlddc.cn/about/">关于九秒</a></dt>
+                <dd><a href="http://www.xlddc.cn/about/index.aspx">了解九秒</a></dd>
+                <dd><a href="http://www.xlddc.cn/about/video.aspx">精彩视频</a></dd>
+                <dd><a href="http://www.xlddc.cn/about/join.aspx">加入九秒</a></dd>
+                <dd><a href="http://www.xlddc.cn/about/contact.aspx">联系我们</a></dd>
+            </dl>
+            <dl style="width: 114px">
+                <dt><a href="http://www.xlddc.cn/product/index.aspx?TypeID=2">产品家族</a></dt>
+                
+                        <dd><a href="http://www.xlddc.cn/product/index.aspx?TypeID=2">NEO</a></dd>
+                    
+                        <dd><a href="http://www.xlddc.cn/product/index.aspx?TypeID=3">电动自行车系列</a></dd>
+                    
+                        <dd><a href="http://www.xlddc.cn/product/index.aspx?TypeID=4">电摩系列</a></dd>
+                    
+                        <dd><a href="http://www.xlddc.cn/product/index.aspx?TypeID=7">电轻摩系列</a></dd>
+                    
+                        <dd><a href="http://www.xlddc.cn/product/index.aspx?TypeID=5">力加电动</a></dd>
+                    
+            </dl>
+            <dl style="width: 144px">
+                <dt><a href="http://www.xlddc.cn/home/">九秒之家</a></dt>
+                <dd><a href="http://www.xlddc.cn/home/index.aspx">九秒销售网点查询</a></dd>
+                <dd><a href="http://www.xlddc.cn/home/down.aspx">下载中心</a></dd>
+            </dl>
+        </div>
+        <div class="share">
+            <p><a class="baidu" href="http://tieba.baidu.com/f?kw=%D0%C2%C0%D9%B5%E7%B6%AF%B3%B5&amp;fr=ala0" target="_blank"></a><a class="wei" id="wei" href="javascript:void(0)"><img src="./images/ma.png"></a><a class="sina" href="http://weibo.com/3079107955" target="_blank"></a><a class="tmart" href="http://sinlane.tmall.com/" target="_blank"></a></p>
+            <img class="mb25" src="./images/tel.png">
+            <p class="p1">版权所有:九秒车业无锡有限公司</p>
+            <p class="p1">苏ICP备12076337号-1</p>
+            <div class="net-police">
+                <script id="jsgovicon" src="http://odr.jsdsgsxt.gov.cn:8081/mbm/app/main/electronic/js/govicon.js?siteId=04a899994e464976b2f04d23194118b6&amp;width=32&amp;height=45&amp;type=1" type="text/javascript" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </form>
+    <script type="text/javascript">
+        $(function () {
+            var $category = $(".detab_con >div:not(:first)");
+            $category.hide();
+            $(".detab_title a").click(function () {
+                biaohao = $(".detab_title a").index(this);
+                $(".detab_con > div").css('display', 'none');
+                $(".detab_con > div:eq(" + biaohao + ")").fadeIn();
+                $(".detab_title > a").removeClass('cur');
+                $(".detab_title > a:eq(" + biaohao + ")").addClass('cur');
+            })
+            $('.detab_con .box').hover(function () {
+                $(this).find('.text').stop(true, true).animate({ bottom: '0' }, 200);
+            }, function () {
+                $(this).find('.text').stop(true, true).animate({ bottom: '-100px' }, 200);
+            })
+        })
+    </script>
+
+
+</body></html>
